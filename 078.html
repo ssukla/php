@@ -1,0 +1,173 @@
+<html>
+<head><meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+<style type="text/css">
+<!--
+span.cls_002{font-family:Arial,serif;font-size:15.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_002{font-family:Arial,serif;font-size:15.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_004{font-family:Arial,serif;font-size:10.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_004{font-family:Arial,serif;font-size:10.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_005{font-family:Arial,serif;font-size:8.1px;color:rgb(0,0,0);font-weight:normal;font-style:italic;text-decoration: none}
+div.cls_005{font-family:Arial,serif;font-size:8.1px;color:rgb(0,0,0);font-weight:normal;font-style:italic;text-decoration: none}
+span.cls_006{font-family:Arial,serif;font-size:10.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_006{font-family:Arial,serif;font-size:10.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_008{font-family:Arial,serif;font-size:8.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_008{font-family:Arial,serif;font-size:8.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+-->
+</style>
+<script type="text/javascript" src="d063eeee-6a28-11eb-8b25-0cc47a792c0a_id_d063eeee-6a28-11eb-8b25-0cc47a792c0a_files/wz_jsgraphics.js"></script>
+</head>
+<body>
+<div style="position:absolute;left:50%;margin-left:-420px;top:0px;width:841px;height:595px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<div style="position:absolute;left:315.00px;top:27.16px" class="cls_002"><span class="cls_002">PHP’DE DİZİ OPERATÖRLERİ</span></div>
+<div style="position:absolute;left:63.72px;top:54.04px" class="cls_004"><span class="cls_004">Dizi operatörleri bir veya daha fazla diziyi birleştirmek yada karşılaştırmak için kullanılır. İki veya daha fazla dizinin anahtar ve değer çiftleri ile birlikte sıra ve veri türleri</span></div>
+<div style="position:absolute;left:28.31px;top:66.40px" class="cls_004"><span class="cls_004">değerlendirilir, sonuç boolean </span><span class="cls_005">(mantıksal)</span><span class="cls_004"> veri türünde, true </span><span class="cls_005">(doğru / olumlu / geçerli / başarılı)</span><span class="cls_004"> veya false </span><span class="cls_005">(yanlış / olumsuz / geçersiz / başarısız)</span><span class="cls_004"> olarak geri döndürülür. Birleştirme işlemi için ise</span></div>
+<div style="position:absolute;left:28.31px;top:78.88px" class="cls_004"><span class="cls_004">sonuç dizi olarak geri döndürülür. Dizi operatörlerini inceleyecek olur isek;</span></div>
+<div style="position:absolute;left:36.48px;top:101.08px" class="cls_006"><span class="cls_006">Operatör</span></div>
+<div style="position:absolute;left:100.08px;top:101.08px" class="cls_006"><span class="cls_006">Tanım</span></div>
+<div style="position:absolute;left:178.08px;top:101.08px" class="cls_006"><span class="cls_006">Açıklama</span></div>
+<div style="position:absolute;left:482.88px;top:101.08px" class="cls_006"><span class="cls_006">Örnek</span></div>
+<div style="position:absolute;left:773.40px;top:101.08px" class="cls_006"><span class="cls_006">Sonuç</span></div>
+<div style="position:absolute;left:482.88px;top:114.40px" class="cls_004"><span class="cls_004">$a = array("Meyve" => "Elma", "Sebze" => "Ispanak")</span></div>
+<div style="position:absolute;left:482.88px;top:125.92px" class="cls_004"><span class="cls_004">$b = array("Meyve" => "Kiraz", "Esya" => "Masa")</span></div>
+<div style="position:absolute;left:482.88px;top:137.44px" class="cls_004"><span class="cls_004">$c = $a + $b</span></div>
+<div style="position:absolute;left:178.07px;top:149.20px" class="cls_004"><span class="cls_004">Birden fazla dizinin anahtar ve değer çiftlerini birleştirmek için</span></div>
+<div style="position:absolute;left:482.88px;top:148.97px" class="cls_006"><span class="cls_006">SONUÇ :</span></div>
+<div style="position:absolute;left:178.07px;top:160.73px" class="cls_004"><span class="cls_004">kullanılır. Aynı anahtara sahip değer veya değerler var ise, aynı</span></div>
+<div style="position:absolute;left:482.88px;top:160.48px" class="cls_004"><span class="cls_004">$c = array("Meyve" => "Elma", "Sebze" => "Ispanak", "Esya" => "Masa")</span></div>
+<div style="position:absolute;left:36.48px;top:172.24px" class="cls_004"><span class="cls_004">+</span></div>
+<div style="position:absolute;left:100.07px;top:172.24px" class="cls_004"><span class="cls_004">Birleştir</span></div>
+<div style="position:absolute;left:178.07px;top:172.25px" class="cls_004"><span class="cls_004">anahtara sahip olan son dizinin ilgili anahtar değeri birleştirilecek</span></div>
+<div style="position:absolute;left:482.88px;top:172.48px" class="cls_004"><span class="cls_004">$a = array("Meyve1" => "Elma", "Sebze" => "Ispanak")</span></div>
+<div style="position:absolute;left:178.07px;top:183.65px" class="cls_004"><span class="cls_004">diziye alınır. Anahtar değerleri farklı ise tüm anahtar ve değer</span></div>
+<div style="position:absolute;left:482.88px;top:184.00px" class="cls_004"><span class="cls_004">$b = array("Meyve2" => "Kiraz", "Esya" => "Masa")</span></div>
+<div style="position:absolute;left:178.07px;top:195.18px" class="cls_004"><span class="cls_004">çiftleri birleştirilecek diziye alınır.</span></div>
+<div style="position:absolute;left:482.89px;top:195.40px" class="cls_004"><span class="cls_004">$c = $a + $b</span></div>
+<div style="position:absolute;left:482.89px;top:206.93px" class="cls_006"><span class="cls_006">SONUÇ :</span></div>
+<div style="position:absolute;left:482.88px;top:218.44px" class="cls_004"><span class="cls_004">$c = array("Meyve1" => "Elma", "Sebze" => "Ispanak", "Meyve2" =></span></div>
+<div style="position:absolute;left:482.88px;top:229.96px" class="cls_004"><span class="cls_004">"Kiraz", "Esya" => "Masa")</span></div>
+<div style="position:absolute;left:482.88px;top:241.96px" class="cls_004"><span class="cls_004">$a = array("Meyve" => "Elma", "Sebze" => "Ispanak")</span></div>
+<div style="position:absolute;left:482.88px;top:253.48px" class="cls_004"><span class="cls_004">$b = array("Meyve" => "Elma", "Sebze" => "Ispanak")</span></div>
+<div style="position:absolute;left:773.40px;top:253.48px" class="cls_004"><span class="cls_004">true</span></div>
+<div style="position:absolute;left:482.88px;top:264.88px" class="cls_004"><span class="cls_004">$a == $b</span></div>
+<div style="position:absolute;left:482.88px;top:276.88px" class="cls_004"><span class="cls_004">$a = array("Meyve1" => "Elma", "Sebze" => "Ispanak")</span></div>
+<div style="position:absolute;left:178.08px;top:288.64px" class="cls_004"><span class="cls_004">İki dizinin anahtar ve değer çiftleri arasında eşitlik sınaması için</span></div>
+<div style="position:absolute;left:482.88px;top:288.40px" class="cls_004"><span class="cls_004">$b = array("Meyve2" => "Elma", "Sebze" => "Ispanak")</span></div>
+<div style="position:absolute;left:773.40px;top:288.40px" class="cls_004"><span class="cls_004">false</span></div>
+<div style="position:absolute;left:178.08px;top:300.16px" class="cls_004"><span class="cls_004">kullanılır. Her iki dizinin anahtar ve değer çiftleri eşleşiyor ise</span></div>
+<div style="position:absolute;left:482.88px;top:299.92px" class="cls_004"><span class="cls_004">$a == $b</span></div>
+<div style="position:absolute;left:36.48px;top:305.92px" class="cls_004"><span class="cls_004">==</span></div>
+<div style="position:absolute;left:100.08px;top:305.92px" class="cls_004"><span class="cls_004">Eşit ise</span></div>
+<div style="position:absolute;left:178.08px;top:311.68px" class="cls_004"><span class="cls_004">sonuç true </span><span class="cls_005">(doğru / olumlu / geçerli / başarılı)</span><span class="cls_004">, eşleşmiyor ise sonuç false</span></div>
+<div style="position:absolute;left:482.88px;top:311.92px" class="cls_004"><span class="cls_004">$a = array("Elma", "Ispanak")</span></div>
+<div style="position:absolute;left:178.08px;top:323.20px" class="cls_005"><span class="cls_005">(yanlış / olumsuz / geçersiz / başarısız)</span><span class="cls_004"> değeri döndürür.</span></div>
+<div style="position:absolute;left:482.88px;top:323.44px" class="cls_004"><span class="cls_004">$b = array(1 => "Ispanak", 0 => "Elma")</span></div>
+<div style="position:absolute;left:773.40px;top:323.44px" class="cls_004"><span class="cls_004">true</span></div>
+<div style="position:absolute;left:482.88px;top:334.96px" class="cls_004"><span class="cls_004">$a == $b</span></div>
+<div style="position:absolute;left:482.88px;top:346.96px" class="cls_004"><span class="cls_004">$a = array("Elma", "Ispanak")</span></div>
+<div style="position:absolute;left:482.88px;top:358.48px" class="cls_004"><span class="cls_004">$b = array(0 => "Ispanak", 1 => "Elma")</span></div>
+<div style="position:absolute;left:773.40px;top:358.48px" class="cls_004"><span class="cls_004">false</span></div>
+<div style="position:absolute;left:482.88px;top:369.88px" class="cls_004"><span class="cls_004">$a == $b</span></div>
+<div style="position:absolute;left:482.88px;top:381.88px" class="cls_004"><span class="cls_004">$a = array("Meyve" => "Elma", "Sebze" => "Ispanak")</span></div>
+<div style="position:absolute;left:482.88px;top:393.40px" class="cls_004"><span class="cls_004">$b = array("Meyve" => "Elma", "Sebze" => "Ispanak")</span></div>
+<div style="position:absolute;left:773.40px;top:393.40px" class="cls_004"><span class="cls_004">false</span></div>
+<div style="position:absolute;left:482.88px;top:404.92px" class="cls_004"><span class="cls_004">$a != $b</span></div>
+<div style="position:absolute;left:482.88px;top:416.92px" class="cls_004"><span class="cls_004">$a = array("Meyve1" => "Elma", "Sebze" => "Ispanak")</span></div>
+<div style="position:absolute;left:178.08px;top:428.68px" class="cls_004"><span class="cls_004">İki dizinin anahtar ve değer çiftleri arasında eşitsizlik sınaması için</span></div>
+<div style="position:absolute;left:482.88px;top:428.44px" class="cls_004"><span class="cls_004">$b = array("Meyve2" => "Elma", "Sebze" => "Ispanak")</span></div>
+<div style="position:absolute;left:773.40px;top:428.44px" class="cls_004"><span class="cls_004">true</span></div>
+<div style="position:absolute;left:178.08px;top:440.20px" class="cls_004"><span class="cls_004">kullanılır. Her iki dizinin anahtar ve değer çiftleri eşleşiyor ise</span></div>
+<div style="position:absolute;left:482.88px;top:439.96px" class="cls_004"><span class="cls_004">$a != $b</span></div>
+<div style="position:absolute;left:36.48px;top:445.96px" class="cls_004"><span class="cls_004">!=</span></div>
+<div style="position:absolute;left:100.07px;top:445.96px" class="cls_004"><span class="cls_004">Eşit değil ise</span></div>
+<div style="position:absolute;left:178.08px;top:451.72px" class="cls_004"><span class="cls_004">sonuç false </span><span class="cls_005">(yanlış / olumsuz / geçersiz / başarısız)</span><span class="cls_004">, eşleşmiyor ise sonuç</span></div>
+<div style="position:absolute;left:482.88px;top:451.96px" class="cls_004"><span class="cls_004">$a = array("Elma", "Ispanak")</span></div>
+<div style="position:absolute;left:178.08px;top:463.12px" class="cls_004"><span class="cls_004">true </span><span class="cls_005">(doğru / olumlu / geçerli / başarılı)</span><span class="cls_004"> değeri döndürür.</span></div>
+<div style="position:absolute;left:482.88px;top:463.48px" class="cls_004"><span class="cls_004">$b = array(1 => "Ispanak", 0 => "Elma")</span></div>
+<div style="position:absolute;left:773.40px;top:463.48px" class="cls_004"><span class="cls_004">false</span></div>
+<div style="position:absolute;left:482.88px;top:474.88px" class="cls_004"><span class="cls_004">$a != $b</span></div>
+<div style="position:absolute;left:482.88px;top:486.88px" class="cls_004"><span class="cls_004">$a = array("Elma", "Ispanak")</span></div>
+<div style="position:absolute;left:482.88px;top:498.40px" class="cls_004"><span class="cls_004">$b = array(0 => "Ispanak", 1 => "Elma")</span></div>
+<div style="position:absolute;left:773.40px;top:498.40px" class="cls_004"><span class="cls_004">true</span></div>
+<div style="position:absolute;left:482.88px;top:509.92px" class="cls_004"><span class="cls_004">$a != $b</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-420px;top:605px;width:841px;height:595px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="se/background1.jpg" width=841 height=595></div>
+<div style="position:absolute;left:36.48px;top:29.20px" class="cls_006"><span class="cls_006">Operatör</span></div>
+<div style="position:absolute;left:100.08px;top:29.20px" class="cls_006"><span class="cls_006">Tanım</span></div>
+<div style="position:absolute;left:178.08px;top:29.20px" class="cls_006"><span class="cls_006">Açıklama</span></div>
+<div style="position:absolute;left:489.84px;top:29.20px" class="cls_006"><span class="cls_006">Örnek</span></div>
+<div style="position:absolute;left:773.40px;top:29.20px" class="cls_006"><span class="cls_006">Sonuç</span></div>
+<div style="position:absolute;left:489.84px;top:42.64px" class="cls_004"><span class="cls_004">$a = array("Meyve" => "Elma", "Sebze" => "Ispanak")</span></div>
+<div style="position:absolute;left:489.84px;top:54.16px" class="cls_004"><span class="cls_004">$b = array("Meyve" => "Elma", "Sebze" => "Ispanak")</span></div>
+<div style="position:absolute;left:773.40px;top:54.16px" class="cls_004"><span class="cls_004">false</span></div>
+<div style="position:absolute;left:489.84px;top:65.56px" class="cls_004"><span class="cls_004">$a &lt;> $b</span></div>
+<div style="position:absolute;left:489.84px;top:77.56px" class="cls_004"><span class="cls_004">$a = array("Meyve1" => "Elma", "Sebze" => "Ispanak")</span></div>
+<div style="position:absolute;left:178.09px;top:89.32px" class="cls_004"><span class="cls_004">İki dizinin anahtar ve değer çiftleri arasında eşitsizlik sınaması için</span></div>
+<div style="position:absolute;left:489.84px;top:89.08px" class="cls_004"><span class="cls_004">$b = array("Meyve2" => "Elma", "Sebze" => "Ispanak")</span></div>
+<div style="position:absolute;left:773.40px;top:89.08px" class="cls_004"><span class="cls_004">true</span></div>
+<div style="position:absolute;left:178.09px;top:100.84px" class="cls_004"><span class="cls_004">kullanılır. Her iki dizinin anahtar ve değer çiftleri eşleşiyor ise sonuç</span></div>
+<div style="position:absolute;left:489.84px;top:100.60px" class="cls_004"><span class="cls_004">$a &lt;> $b</span></div>
+<div style="position:absolute;left:36.48px;top:106.60px" class="cls_004"><span class="cls_004">&lt;></span></div>
+<div style="position:absolute;left:100.08px;top:106.60px" class="cls_004"><span class="cls_004">Eşit değil ise</span></div>
+<div style="position:absolute;left:178.09px;top:112.36px" class="cls_004"><span class="cls_004">false </span><span class="cls_005">(yanlış / olumsuz / geçersiz / başarısız)</span><span class="cls_004">, eşleşmiyor ise sonuç true</span></div>
+<div style="position:absolute;left:489.84px;top:112.60px" class="cls_004"><span class="cls_004">$a = array("Elma", "Ispanak")</span></div>
+<div style="position:absolute;left:178.08px;top:123.88px" class="cls_005"><span class="cls_005">(doğru / olumlu / geçerli / başarılı)</span><span class="cls_004"> değeri döndürür.</span></div>
+<div style="position:absolute;left:489.84px;top:124.12px" class="cls_004"><span class="cls_004">$b = array(1 => "Ispanak", 0 => "Elma")</span></div>
+<div style="position:absolute;left:773.40px;top:124.12px" class="cls_004"><span class="cls_004">false</span></div>
+<div style="position:absolute;left:489.84px;top:135.64px" class="cls_004"><span class="cls_004">$a &lt;> $b</span></div>
+<div style="position:absolute;left:489.84px;top:147.64px" class="cls_004"><span class="cls_004">$a = array("Elma", "Ispanak")</span></div>
+<div style="position:absolute;left:489.84px;top:159.04px" class="cls_004"><span class="cls_004">$b = array(0 => "Ispanak", 1 => "Elma")</span></div>
+<div style="position:absolute;left:773.40px;top:159.04px" class="cls_004"><span class="cls_004">true</span></div>
+<div style="position:absolute;left:489.84px;top:170.56px" class="cls_004"><span class="cls_004">$a &lt;> $b</span></div>
+<div style="position:absolute;left:489.84px;top:182.56px" class="cls_004"><span class="cls_004">$a = array("Meyve" => "Elma", "Sebze" => "Ispanak")</span></div>
+<div style="position:absolute;left:489.84px;top:194.08px" class="cls_004"><span class="cls_004">$b = array("Meyve" => "Elma", "Sebze" => "Ispanak")</span></div>
+<div style="position:absolute;left:773.40px;top:194.08px" class="cls_004"><span class="cls_004">true</span></div>
+<div style="position:absolute;left:489.84px;top:205.60px" class="cls_004"><span class="cls_004">$a === $b</span></div>
+<div style="position:absolute;left:489.84px;top:217.60px" class="cls_004"><span class="cls_004">$a = array("Meyve1" => "Elma", "Sebze" => "Ispanak")</span></div>
+<div style="position:absolute;left:178.07px;top:223.60px" class="cls_004"><span class="cls_004">İki dizinin anahtar ve değer çiftleri arasında denklik sınaması için</span></div>
+<div style="position:absolute;left:489.84px;top:229.12px" class="cls_004"><span class="cls_004">$b = array("Meyve2" => "Elma", "Sebze" => "Ispanak")</span></div>
+<div style="position:absolute;left:773.40px;top:229.12px" class="cls_004"><span class="cls_004">false</span></div>
+<div style="position:absolute;left:178.07px;top:235.13px" class="cls_004"><span class="cls_004">kullanılır. Her iki dizinin anahtar ve değer çiftleri ile birlikte sırası ve</span></div>
+<div style="position:absolute;left:489.84px;top:240.64px" class="cls_004"><span class="cls_004">$a === $b</span></div>
+<div style="position:absolute;left:36.48px;top:246.64px" class="cls_004"><span class="cls_004">===</span></div>
+<div style="position:absolute;left:100.07px;top:246.64px" class="cls_004"><span class="cls_004">Denk ise</span></div>
+<div style="position:absolute;left:178.07px;top:246.64px" class="cls_004"><span class="cls_004">veri türü de eşleşiyor ise sonuç true </span><span class="cls_005">(doğru / olumlu / geçerli / başarılı)</span><span class="cls_004">,</span></div>
+<div style="position:absolute;left:489.84px;top:252.64px" class="cls_004"><span class="cls_004">$a = array("Elma", "Ispanak")</span></div>
+<div style="position:absolute;left:178.08px;top:258.04px" class="cls_004"><span class="cls_004">eşleşmiyor ise sonuç false </span><span class="cls_005">(yanlış / olumsuz / geçersiz / başarısız)</span><span class="cls_004"> değeri</span></div>
+<div style="position:absolute;left:489.84px;top:264.04px" class="cls_004"><span class="cls_004">$b = array(1 => "Ispanak", 0 => "Elma")</span></div>
+<div style="position:absolute;left:773.40px;top:264.04px" class="cls_004"><span class="cls_004">false</span></div>
+<div style="position:absolute;left:178.08px;top:269.56px" class="cls_004"><span class="cls_004">döndürür.</span></div>
+<div style="position:absolute;left:489.84px;top:275.56px" class="cls_004"><span class="cls_004">$a === $b</span></div>
+<div style="position:absolute;left:489.84px;top:287.56px" class="cls_004"><span class="cls_004">$a = array(100, 200, "300", 400, 500)</span></div>
+<div style="position:absolute;left:489.84px;top:299.08px" class="cls_004"><span class="cls_004">$b = array(100, 200, 300, 400, 500)</span></div>
+<div style="position:absolute;left:773.40px;top:299.08px" class="cls_004"><span class="cls_004">false</span></div>
+<div style="position:absolute;left:489.84px;top:310.60px" class="cls_004"><span class="cls_004">$a === $b</span></div>
+<div style="position:absolute;left:489.84px;top:322.60px" class="cls_004"><span class="cls_004">$a = array("Meyve" => "Elma", "Sebze" => "Ispanak")</span></div>
+<div style="position:absolute;left:489.84px;top:334.12px" class="cls_004"><span class="cls_004">$b = array("Meyve" => "Elma", "Sebze" => "Ispanak")</span></div>
+<div style="position:absolute;left:773.40px;top:334.12px" class="cls_004"><span class="cls_004">false</span></div>
+<div style="position:absolute;left:489.84px;top:345.64px" class="cls_004"><span class="cls_004">$a !== $b</span></div>
+<div style="position:absolute;left:489.84px;top:357.64px" class="cls_004"><span class="cls_004">$a = array("Meyve1" => "Elma", "Sebze" => "Ispanak")</span></div>
+<div style="position:absolute;left:178.08px;top:363.64px" class="cls_004"><span class="cls_004">İki dizinin anahtar ve değer çiftleri arasında denk olmama sınaması</span></div>
+<div style="position:absolute;left:489.84px;top:369.04px" class="cls_004"><span class="cls_004">$b = array("Meyve2" => "Elma", "Sebze" => "Ispanak")</span></div>
+<div style="position:absolute;left:773.40px;top:369.04px" class="cls_004"><span class="cls_004">true</span></div>
+<div style="position:absolute;left:178.08px;top:375.05px" class="cls_004"><span class="cls_004">için kullanılır. Her iki dizinin anahtar ve değer çiftleri ile birlikte sırası</span></div>
+<div style="position:absolute;left:489.84px;top:380.56px" class="cls_004"><span class="cls_004">$a !== $b</span></div>
+<div style="position:absolute;left:36.48px;top:386.56px" class="cls_004"><span class="cls_004">!==</span></div>
+<div style="position:absolute;left:100.08px;top:386.56px" class="cls_004"><span class="cls_004">Denk değil ise</span></div>
+<div style="position:absolute;left:178.08px;top:386.57px" class="cls_004"><span class="cls_004">ve veri türü de eşleşiyor ise sonuç false </span><span class="cls_005">(yanlış / olumsuz / geçersiz /</span></div>
+<div style="position:absolute;left:489.84px;top:392.56px" class="cls_004"><span class="cls_004">$a = array("Elma", "Ispanak")</span></div>
+<div style="position:absolute;left:178.08px;top:398.08px" class="cls_005"><span class="cls_005">başarısız)</span><span class="cls_004">, eşleşmiyor ise sonuç true </span><span class="cls_005">(doğru / olumlu / geçerli / başarılı)</span></div>
+<div style="position:absolute;left:489.84px;top:404.08px" class="cls_004"><span class="cls_004">$b = array(1 => "Ispanak", 0 => "Elma")</span></div>
+<div style="position:absolute;left:773.40px;top:404.08px" class="cls_004"><span class="cls_004">true</span></div>
+<div style="position:absolute;left:178.08px;top:409.60px" class="cls_004"><span class="cls_004">değeri döndürür.</span></div>
+<div style="position:absolute;left:489.84px;top:415.60px" class="cls_004"><span class="cls_004">$a !== $b</span></div>
+<div style="position:absolute;left:489.84px;top:427.60px" class="cls_004"><span class="cls_004">$a = array(100, 200, "300", 400, 500)</span></div>
+<div style="position:absolute;left:489.84px;top:439.12px" class="cls_004"><span class="cls_004">$b = array(100, 200, 300, 400, 500)</span></div>
+<div style="position:absolute;left:773.40px;top:439.12px" class="cls_004"><span class="cls_004">true</span></div>
+<div style="position:absolute;left:489.84px;top:450.52px" class="cls_004"><span class="cls_004">$a !== $b</span></div>
+</div>
+
+</body>
+</html>
