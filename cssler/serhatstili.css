@@ -1,0 +1,146 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face{
+	font-family	: Serhatnormalfont;
+	src: url(https://ssukla.github.io/font/serhatyazi.woff);
+	}
+	
+@font-face{
+	font-family	: Korkunçfont;
+	src: url(https://ssukla.github.io/font/PiecesNFI.woff);
+	}
+		
+@font-face{
+	font-family: Terminatör;
+	src : url(https://ssukla.github.io/font/Terminator.woff);
+	}
+
+@font-face{
+	font-family: waltdisney;
+	src : url(https://ssukla.github.io/font/waltdisney.woff);
+	}
+
+@font-face{
+	font-family: multivac;
+	src : url(https://ssukla.github.io/font/multivac.woff);
+	}
+
+@font-face{
+	font-family: FRKFRTHN;
+	src : url(https://ssukla.github.io/font/serhat.woff);
+	}
+	
+@font-face{
+	font-family: Clasic;
+	src : url(https://ssukla.github.io/font/Clasicalderibbon.woff);
+	}
+	
+@font-face{
+	font-family: Hello;
+	src : url(https://ssukla.github.io/font/Hello-Christmas-trial.woff);
+	}
+	
+@font-face{
+	font-family: Mostwasted;
+	src : url(https://ssukla.github.io/font/Mostwasted.woff);
+	}
+	
+	
+	body{background-image: url("https://ssukla.github.io/resim/Ads%C4%B1z.png");
+	color:bisque;
+	font-size: 25px;
+	font-family: Serhatnormalfont;
+			
+	}
+	.serhat {
+	background-color: black;
+	font-family: Serhatnormalfont;
+	color:bisque;
+	font-size: 25px;	
+	}
+	
+	.serhat1 {
+	background-color:bisque;
+	color:black;
+	font-size: 25px;	
+	}
+	
+	.serhat2 {
+	font-family: Korkunçfont;
+	background-color: #003311;
+	color: #ff0000;
+	font-size: 25px;
+	}
+	
+	.serhat3 {
+	font-family: Terminatör;
+	background-color: #800000;
+	color: #8c8c8c ;
+	font-size: 25px;
+	}
+	
+	
+     iframe{	
+    margin: 0 auto;
+    display:block;
+    width: 1500px ;
+    height: 800px ;
+    border-style: dashed;
+    border-color: red;
+    }
+	
+	ser1 {
+	background-color: #D92A2D;
+	font-family: Serhatnormalfont;
+	color:bisque;
+	font-size: 25px;	
+	}		
+	
+	ser2 {
+	background-color: #00E5DB;
+	font-family: Serhatnormalfont;
+	color:bisque;
+	font-size: 25px;	
+	}	
+	
+	ser3 {
+	background-color: #8B4243;
+	font-family: Serhatnormalfont;
+	color:bisque;
+	font-size: 25px;	
+	}	
+	
+	ser4 {
+	background-color: #ABBCC9;
+	font-family: Serhatnormalfont;
+	color:bisque;
+	font-size: 25px;	
+	}	
+	
+	ser5 {
+	background-color: #FFE746;
+	font-family:waltdisney;
+	color:red;
+	font-size: 40px;	
+	}	
+	
+	ser6 {
+	background-color:dimgrey;
+	font-family:multivac;
+	color:darkorange;
+	font-size: 25px;	
+	}	
+	
+	ser7  {
+	background-color:#FFFFFF;
+	font-family:FRKFRTHN;
+	color:green;
+	font-size: 25px;	
+	}		
+	
+	ser8  {
+	background-color:#CC9B4A;
+	font-family:Mostwasted;
+	color:#A30002;
+	font-size: 40px;	
+	}	
