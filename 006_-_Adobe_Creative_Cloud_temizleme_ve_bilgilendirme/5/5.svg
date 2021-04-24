@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg viewBox="0 0 1286 909" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<clipPath id="c0_5"><path d="M252.3,636.3v-437h782.2v437Z"/></clipPath>
+<clipPath id="c1_5"><path d="M275.3,613.3V222.1h736.2V613.3Z"/></clipPath>
+</defs>
+<image clip-path="url(#c0_5)" preserveAspectRatio="none" x="252" y="199" width="783" height="437" xlink:href="img/1.png"/>
+<image clip-path="url(#c1_5)" preserveAspectRatio="none" x="275" y="222" width="736" height="391" xlink:href="img/2.jpg"/>
+</svg>
