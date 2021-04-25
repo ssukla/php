@@ -55,14 +55,16 @@
 	.serhat {
 	background-color: black;
 	font-family: Serhatnormalfont;
-	color:bisque;
+	color:#F7DC6F;
 	font-size: 25px;	
 	}
 	
 	.serhat1 {
-	background-color:bisque;
+	background-color:#515A5A;
 	color:black;
-	font-size: 25px;	
+	font-size: 30px;
+	font-family: Hello;
+
 	}
 	
 	.serhat2 {
