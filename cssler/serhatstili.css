@@ -47,7 +47,12 @@
 	font-family: rapstar;
 	src : url(https://ssukla.github.io/font/HelBla.woff);
 	}
-	
+
+@font-face{
+	font-family: kissme;
+	src : url(https://ssukla.github.io/font/KGKissMeSlowly.woff);
+	}
+
 	
 	body{background-image: url("https://ssukla.github.io/resim/Ads%C4%B1z.png");
 	color:bisque;
@@ -149,3 +154,10 @@
 	color:#A30002;
 	font-size: 40px;	
 	}	
+	
+	ser9  {
+	background-color:#307BAC;
+	font-family:kissme;
+	color:#7795A4;
+	font-size: 40px;	
+	}
