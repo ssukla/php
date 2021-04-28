@@ -53,6 +53,10 @@
 	src : url(https://ssukla.github.io/font/KGKissMeSlowly.woff);
 	}
 
+@font-face{
+	font-family: maze;
+	src : url(https://ssukla.github.io/font/The-Haunted-Maze-TTF.woff);
+	}
 	
 	body{background-image: url("https://ssukla.github.io/resim/Ads%C4%B1z.png");
 	color:bisque;
@@ -158,6 +162,13 @@
 	ser9  {
 	background-color:#F28C0F;
 	font-family:kissme;
+	color:#011D70;
+	font-size: 50px;	
+	}
+	
+	ser10 {
+	background-color:#F28C0F;
+	font-family:maze;
 	color:#011D70;
 	font-size: 50px;	
 	}
