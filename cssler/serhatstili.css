@@ -57,7 +57,12 @@
 	font-family: maze;
 	src : url(https://ssukla.github.io/font/The-Haunted-Maze-TTF.woff);
 	}
-	
+
+@font-face{
+	font-family: openf;
+	src : url(https://ssukla.github.io/font/OpenFlame.woff);
+	}
+
 	body{background-image: url("https://ssukla.github.io/resim/Ads%C4%B1z.png");
 	color:bisque;
 	font-size: 25px;
@@ -179,3 +184,14 @@
 	color:#FFF4E0;
 	font-size: 50px;	
 	}
+
+	ser11 {
+	background-color:#F3BA42;
+	font-family:openf;
+	color:#3F8CCC;
+	font-size: 50px;	
+	}
+
+
+
+
