@@ -63,6 +63,11 @@
 	src : url(https://ssukla.github.io/font/OpenFlame.woff);
 	}
 
+@font-face{
+	font-family: crysis;
+	src : url(https://ssukla.github.io/font/CRYSISB.woff);
+	}
+
 	body{background-image: url("https://ssukla.github.io/resim/Ads%C4%B1z.png");
 	color:bisque;
 	font-size: 25px;
@@ -191,7 +196,13 @@
 	color:#e5e5e5;
 	font-size: 60px;	
 	}
-
+	
+	ser12 {
+	background-color:#7b2cbf;
+	font-family:crysis;
+	color:#ff8500;
+	font-size: 60px;	
+	}
 
 
 
