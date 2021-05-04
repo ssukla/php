@@ -68,6 +68,11 @@
 	src : url(https://ssukla.github.io/font/CRYSISB.woff);
 	}
 
+@font-face{
+	font-family: ataturk;
+	src : url(https://ssukla.github.io/font/ataturk.woff);
+	}
+
 	body{background-image: url("https://ssukla.github.io/resim/Ads%C4%B1z.png");
 	color:bisque;
 	font-size: 25px;
@@ -204,5 +209,10 @@
 	font-size: 60px;	
 	}
 
-
+	ser13 {
+	background-color:#240046;
+	font-family:ataturk;
+	color:#e0aaff;
+	font-size: 60px;	
+	}
 
