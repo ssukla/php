@@ -71,7 +71,13 @@
 @font-face{
 	font-family: ataturk;
 	src : url(https://ssukla.github.io/font/ataturk.woff);
-	}
+	
+@font-face{
+	font-family: Lighthouse;
+	src : url(https://ssukla.github.io/font/Lighthouse_PersonalUse.woff);
+
+}
+
 
 	body{background-image: url("https://ssukla.github.io/resim/Ads%C4%B1z.png");
 	color:bisque;
@@ -211,8 +217,8 @@
 
 	ser13 {
 	background-color:#240046;
-	font-family:ataturk;
+	font-family:Lighthouse;
 	color:#e0aaff;
-	font-size: 60px;	
+	font-size: 50px;	
 	}
 
