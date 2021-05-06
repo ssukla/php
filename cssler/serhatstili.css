@@ -120,7 +120,21 @@
 	font-size: 25px;
 	}
 	
-	
+	.morvekucuk {
+	background-color:#240046;
+	font-family:MagicOwl;
+	color:#e0aaff;
+	font-size: 20px;
+	}
+
+	.morvebuyuk {
+	background-color:#240046;
+	font-family:MagicOwl;
+	color:#e0aaff;
+	font-size: 50px;
+	}
+
+
      iframe{	
     margin: 0 auto;
     display:block;
