@@ -79,6 +79,11 @@
 
 }
 
+@font-face{
+	font-family: MagicOwl;
+	src : url(https://ssukla.github.io/font/MagicOwl-PersonalUse.woff);
+
+}
 
 	body{background-image: url("https://ssukla.github.io/resim/Ads%C4%B1z.png");
 	color:bisque;
@@ -218,7 +223,7 @@
 
 	ser13 {
 	background-color:#240046;
-	font-family:Lighthouse;
+	font-family:MagicOwl;
 	color:#e0aaff;
 	font-size: 50px;	
 	}
