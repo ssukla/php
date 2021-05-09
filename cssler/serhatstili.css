@@ -85,6 +85,12 @@
 
 }
 
+@font-face{
+	font-family: vtks;
+	src : url(https://ssukla.github.io/font/font/Vtks-Revolt.woff);
+}
+
+
 	body{background-image: url("https://ssukla.github.io/resim/Ads%C4%B1z.png");
 	color:bisque;
 	font-size: 25px;
@@ -242,3 +248,9 @@
 	font-size: 50px;	
 	}
 
+	ser14 {
+	background-color:#4a7c59;
+	font-family:vtks;
+	color:#8fc0a9;
+	font-size: 50px;	
+	}
