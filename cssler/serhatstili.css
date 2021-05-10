@@ -160,7 +160,19 @@
 	font-size: 50px;
 	}
 
+	.ser15kucuk {
+	background-color:#1b4332;
+	font-family:Gagalin;
+	color:#74c69d;
+	font-size: 50px;
+	}
 
+	.ser15buyuk {
+	background-color:#1b4332;
+	font-family:Gagalin;
+	color:#74c69d;
+	font-size: 70px;
+	}
 
 
 
@@ -283,6 +295,6 @@
 	background-color:#001845;
 	font-family:vtks;
 	color:#979dac;
-	font-size: 50px;	
+	font-size: 70px;	
 	}
 
