@@ -95,6 +95,10 @@
 	src : url(https://ssukla.github.io/font/Gagalin-Regular.woff);
 }
 
+@font-face{
+	font-family: HighVoltage;
+	src : url(https://ssukla.github.io/font/HighVoltage-Rough.woff);
+}
 
 
 	body{background-image: url("https://ssukla.github.io/resim/Ads%C4%B1z.png");
@@ -161,17 +165,17 @@
 	}
 
 	.ser15kucuk {
-	background-color:#1b4332;
-	font-family:vtks;
-	color:#74c69d;
-	font-size: 50px;
+	background-color:#001845;
+	font-family:HighVoltage;
+	color:#979dac;
+	font-size: 20px;
 	}
 
 	.ser15buyuk {
-	background-color:#1b4332;
-	font-family:vtks;
-	color:#74c69d;
-	font-size: 70px;
+	background-color:#001845;
+	font-family:HighVoltage;
+	color:#979dac;
+	font-size: 50px;
 	}
 
 
@@ -293,8 +297,8 @@
 
 	ser15 {
 	background-color:#001845;
-	font-family:vtks;
+	font-family:HighVoltage;
 	color:#979dac;
-	font-size: 70px;	
+	font-size: 50px;	
 	}
 
