@@ -90,6 +90,12 @@
 	src : url(https://ssukla.github.io/font/Vtks-Revolt.woff);
 }
 
+@font-face{
+	font-family: Gagalin;
+	src : url(https://ssukla.github.io/font/Gagalin-Regular.woff);
+}
+
+
 
 	body{background-image: url("https://ssukla.github.io/resim/Ads%C4%B1z.png");
 	color:bisque;
@@ -139,6 +145,24 @@
 	color:#e0aaff;
 	font-size: 50px;
 	}
+
+	.yesilvekucuk {
+	background-color:#1b4332;
+	font-family:Gagalin;
+	color:#74c69d;
+	font-size: 20px;
+	}
+
+	.yesilvebuyuk {
+	background-color:#1b4332;
+	font-family:Gagalin;
+	color:#74c69d;
+	font-size: 50px;
+	}
+
+
+
+
 
 
      iframe{	
@@ -250,7 +274,7 @@
 
 	ser14 {
 	background-color:#1b4332;
-	font-family:vtks;
+	font-family:Gagalin;
 	color:#74c69d;
-	font-size: 70px;	
+	font-size: 50px;	
 	}
