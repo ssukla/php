@@ -100,6 +100,10 @@
 	src : url(https://ssukla.github.io/font/HighVoltage-Rough.woff);
 }
 
+@font-face{
+	font-family: Ubuntu;
+	src : url(https://ssukla.github.io/font/Ubuntu-BoldItalic.woff);
+}
 
 	body{background-image: url("https://ssukla.github.io/resim/Ads%C4%B1z.png");
 	color:bisque;
@@ -302,3 +306,9 @@
 	font-size: 50px;	
 	}
 
+	ser16 {
+	background-color:#006466;
+	font-family:Ubuntu;
+	color:#4d194d;
+	font-size: 50px;	
+	}
