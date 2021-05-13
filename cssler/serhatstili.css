@@ -105,6 +105,11 @@
 	src : url(https://ssukla.github.io/font/Ubuntu-BoldItalic.woff);
 }
 
+@font-face{
+	font-family: Phenomena;
+	src : url(https://ssukla.github.io/font/Phenomena-ExtraBold.woff);
+}
+
 	body{background-image: url("https://ssukla.github.io/resim/Ads%C4%B1z.png");
 	color:bisque;
 	font-size: 25px;
@@ -196,6 +201,19 @@
 	font-size: 50px;
 	}
 
+	.ser17kucuk {
+	background-color:#fec89a;
+	font-family:Phenomena;
+	color:#fec5bb;
+	font-size: 20px;
+	}
+
+	.ser17buyuk {
+	background-color:#fec89a;
+	font-family:Phenomena;
+	color:#fec5bb;
+	font-size: 50px;
+	}
 
      iframe{	
     margin: 0 auto;
@@ -322,5 +340,13 @@
 	background-color:#006466;
 	font-family:Ubuntu;
 	color:#4d194d;
+	font-size: 50px;	
+	}
+
+
+	ser17 {
+	background-color:#fec89a;
+	font-family:Phenomena;
+	color:#fec5bb;
 	font-size: 50px;	
 	}
