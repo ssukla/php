@@ -110,6 +110,11 @@
 	src : url(https://ssukla.github.io/font/Phenomena-ExtraBold.woff);
 }
 
+@font-face{
+	font-family: KGPrimary;
+	src : url(https://ssukla.github.io/font/KGPrimaryPenmanship.woff);
+}
+
 	body{background-image: url("https://ssukla.github.io/resim/Ads%C4%B1z.png");
 	color:bisque;
 	font-size: 25px;
@@ -212,6 +217,20 @@
 	background-color:#3d405b;
 	font-family:Phenomena;
 	color:#e07a5f;
+	font-size: 50px;
+	}
+
+	.ser18kucuk {
+	background-color:#fca311;
+	font-family:KGPrimary;
+	color:#ffffff;
+	font-size: 20px;
+	}
+
+	.ser18buyuk {
+	background-color:#fca311;
+	font-family:KGPrimary;
+	color:#ffffff;
 	font-size: 50px;
 	}
 
@@ -348,5 +367,12 @@
 	background-color:#3d405b;
 	font-family:Phenomena;
 	color:#e07a5f;
+	font-size: 50px;	
+	}
+
+	ser18 {
+	background-color:#fca311;
+	font-family:KGPrimary;
+	color:#ffffff;
 	font-size: 50px;	
 	}
