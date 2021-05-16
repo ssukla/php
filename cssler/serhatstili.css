@@ -115,6 +115,12 @@
 	src : url(https://ssukla.github.io/font/KGPrimaryPenmanship.woff);
 }
 
+@font-face{
+	font-family: song;
+	src : url(https://ssukla.github.io/font/a-song-for-jennifer-bold.woff);
+}
+
+
 	body{background-image: url("https://ssukla.github.io/resim/Ads%C4%B1z.png");
 	color:bisque;
 	font-size: 25px;
@@ -231,6 +237,20 @@
 	background-color:#fca311;
 	font-family:KGPrimary;
 	color:#ffffff;
+	font-size: 50px;
+	}
+
+	.ser19kucuk {
+	background-color:#5c374c;
+	font-family:song;
+	color:#985277;
+	font-size: 20px;;
+	}
+
+	.ser19buyuk {
+	background-color:#5c374c;
+	font-family:song;
+	color:#985277;
 	font-size: 50px;
 	}
 
@@ -376,3 +396,11 @@
 	color:#ffffff;
 	font-size: 50px;	
 	}
+
+	ser19 {
+	background-color:#5c374c;
+	font-family:song;
+	color:#985277;
+	font-size: 50px;	
+	}
+
