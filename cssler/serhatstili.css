@@ -120,6 +120,10 @@
 	src : url(https://ssukla.github.io/font/a-song-for-jennifer-bold.woff);
 }
 
+@font-face{
+	font-family: RibeyeMarrow;
+	src : url(https://ssukla.github.io/font/RibeyeMarrow-Regular.woff);
+}
 
 	body{background-image: url("https://ssukla.github.io/resim/Ads%C4%B1z.png");
 	color:bisque;
@@ -251,6 +255,21 @@
 	background-color:#071013;
 	font-family:song;
 	color:#eb5160;
+	font-size: 50px;
+	}
+	
+
+	.ser20kucuk {
+	background-color:#e65558;
+	font-family:RibeyeMarrow;
+	color:#d8cecc;
+	font-size: 20px;;
+	}
+
+	.ser20buyuk {
+	background-color:#e65558;
+	font-family:RibeyeMarrow;
+	color:#d8cecc;
 	font-size: 50px;
 	}
 
@@ -404,3 +423,9 @@
 	font-size: 50px;	
 	}
 
+	ser20 {
+	background-color:#e65558;
+	font-family:RibeyeMarrow;
+	color:#d8cecc;
+	font-size: 50px;	
+	}
