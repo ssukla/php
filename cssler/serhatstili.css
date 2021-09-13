@@ -125,6 +125,12 @@
 	src : url(https://ssukla.github.io/font/RibeyeMarrow-Regular.woff);
 }
 
+
+@font-face{
+	font-family: 20seven;
+	src : url(https://ssukla.github.io/font/20SEVEN.woff );
+}
+
 	body{background-image: url("https://ssukla.github.io/resim/Ads%C4%B1z.png");
 	color:bisque;
 	font-size: 25px;
@@ -270,6 +276,20 @@
 	background-color:#e65558;
 	font-family:RibeyeMarrow;
 	color:#d8cecc;
+	font-size: 50px;
+	}
+
+	.ser21kucuk {
+	background-color:#c4e2aa;
+	font-family:20seven;
+	color:##5b745d;
+	font-size: 20px;;
+	}
+
+	.ser21buyuk {
+	background-color:#c4e2aa;
+	font-family:20seven;
+	color:##5b745d;
 	font-size: 50px;
 	}
 
@@ -429,3 +449,14 @@
 	color:#d8cecc;
 	font-size: 50px;	
 	}
+
+	ser21 {
+	background-color:#c4e2aa;
+	font-family:20seven;
+	color:##5b745d;
+	font-size: 50px;	
+	}
+
+
+
+
