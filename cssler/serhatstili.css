@@ -131,6 +131,12 @@
 	src : url(https://ssukla.github.io/font/sertyazi.woff);
 }  
 
+
+@font-face{
+	font-family: nosifer;
+	src : url(https://ssukla.github.io/font/Nosifer.woff);
+}  
+
 	body{background-image: url("https://ssukla.github.io/resim/Ads%C4%B1z.png");
 	color:bisque;
 	font-size: 25px;
@@ -290,6 +296,20 @@
 	background-color:#4c292e;
 	font-family:sertyazi;
 	color:#f4ac93;
+	font-size: 50px;
+	}
+
+	.ser22kucuk {
+	background-color:#FEC260;
+	font-family:nosifer;
+	color:#3B185F;
+	font-size: 20px;
+	}
+
+	.ser22buyuk {
+	background-color:#FEC260;
+	font-family:nosifer;
+	color:#3B185F;
 	font-size: 50px;
 	}
 
@@ -457,6 +477,11 @@
 	font-size: 50px;	
 	}
 
-
+	ser22 {
+	background-color:#FEC260;
+	font-family:nosifer;
+	color:#3B185F;
+	font-size: 50px;	
+	}
 
 
